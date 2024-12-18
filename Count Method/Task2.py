@@ -1,4 +1,5 @@
 # Build a python program which returns the no. of paragraph , count of words, count of sentences and doc size of .txt document.
+#Ridham Patel
 #15/12/2024
 
 import os
