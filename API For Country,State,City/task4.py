@@ -1,3 +1,4 @@
+#Build a function which returns all cities of india and saves in a .csv (USE API).
 #Ridham Patel
 #17/12/2024
 import requests
