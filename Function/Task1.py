@@ -1,4 +1,5 @@
 #Write a function which will return the all the Tuesday and Friday dates by taking month as a input.
+#Ridham Patel
 #15/12/2024
 
 import calendar
