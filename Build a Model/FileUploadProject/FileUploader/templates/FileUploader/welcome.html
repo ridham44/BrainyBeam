@@ -1,0 +1,41 @@
+<!-- FileUploader/templates/FileUploader/welcome.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            text-align: center;
+            padding-top: 50px;
+        }
+        
+        h1 {
+            color: #333;
+        }
+
+        a {
+            font-size: 1.2rem;
+            color: #4CAF50;
+            text-decoration: none;
+            padding: 10px 20px;
+            border: 2px solid #4CAF50;
+            border-radius: 4px;
+            transition: background-color 0.3s ease;
+        }
+
+        a:hover {
+            background-color: #4CAF50;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to the File Upload Page</h1>
+    <p>Click the link below to go to the upload page:</p>
+    <a href="{% url 'upload' %}">Go to Upload Page</a>
+</body>
+</html>
